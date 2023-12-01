@@ -1,7 +1,7 @@
 {
   "name": "image-gen",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://itzrnvr.github.io/image-gen",
   "dependencies": {
     "@material-tailwind/react": "^2.1.5",
