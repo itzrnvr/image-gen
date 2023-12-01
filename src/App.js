@@ -9,7 +9,7 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path="/" element={<ImageGeneration />} />
+				<Route path="/image-gen" element={<ImageGeneration />} />
 				<Route path="/image-generation" element={<ImageGeneration />} />
 			</Routes>
 		</Router>
