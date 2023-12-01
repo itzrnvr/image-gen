@@ -2,6 +2,7 @@
   "name": "image-gen",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://itzrnvr.github.io/image-gen",
   "dependencies": {
     "@material-tailwind/react": "^2.1.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.16",
     "axios": "^1.6.2",
+    "gh-pages": "^6.1.0",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
