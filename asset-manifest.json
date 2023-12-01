@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/image-gen/static/css/main.719fb548.css",
+    "main.js": "/image-gen/static/js/main.c329f013.js",
+    "index.html": "/image-gen/index.html",
+    "main.719fb548.css.map": "/image-gen/static/css/main.719fb548.css.map",
+    "main.c329f013.js.map": "/image-gen/static/js/main.c329f013.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.719fb548.css",
+    "static/js/main.c329f013.js"
+  ]
+}
